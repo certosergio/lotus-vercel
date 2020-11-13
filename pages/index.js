@@ -4,6 +4,7 @@ function Home (){
     <div>
       <h2>Home</h2>
       <Contador />
+      <div>Teste</div>
     </div>
   )
 }
@@ -16,7 +17,10 @@ function Contador(){
   }
 
   return (
-  <div>{contador}</div>
+    <div>
+      <div>{contador}</div>
+      <button onClick={adicionarContador}>Adicionar</button>
+  </div>
   )
 
   
